@@ -9,6 +9,7 @@ I plan to clean it up a bit then make it 1.0 once I think its "clean".
 * Not show the same kana twice.
 * Show user summary/score when kana list is exhausted.
 * Maybe split kana into groups and let the user train in the group of his or her choosing.
+* Add comments.
 
 ##License
 ![CC-by-sa](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
