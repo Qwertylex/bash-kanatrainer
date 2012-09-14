@@ -26,13 +26,21 @@ kana_randomized=$(echo ${kana[$((RANDOM%kanas_enumerated))]})
 r_kana=$(echo $kana_randomized | cut -d , -f 1 -)
 romaji=$(echo $kana_randomized | cut -d , -f 2 -)
 
+correct=0
+incorrect=0
+
 echo -n "$r_kana
 Romaji?: "
 read -e answer
 if [ $romaji == $answer ];
 	then
 	echo "Correct!"
+    let "correct += 1"
+    let "score += 1"
 	else
 	echo "Sorry, it was $romaji."
+    let "incorrect += 1"
+    let "score -= 1"
 fi
+trap "echo; echo; echo Total Score: $score; echo Correct Answers: $correct; echo Incorrect Anwsers: $incorrect;exit 0" SIGINT SIGTERM
 done
