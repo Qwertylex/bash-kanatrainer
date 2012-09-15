@@ -6,9 +6,9 @@ Its a bit hackish but it works.
 I plan to clean it up a bit then make it 1.0 once I think its "clean".
 
 ##Todo
-* Not show the same kana twice.
-* Show user summary/score when kana list is exhausted.
-* Maybe split kana into groups and let the user train in the group of his or her choosing.
+* Not show the same kana twice. < Work In Progress
+* Show user summary/score when kana list is exhausted. < Ready, waiting for above.
+* Maybe split kana into groups and let the user train in the kana group of his or her choosing. < Ready, will add kana groups later.
 * Add comments.
 
 ##License
