@@ -7,7 +7,7 @@ I plan to clean it up a bit then make it 1.0 once I think its "clean".
 
 ##Todo
 * ~~Not showing the same kana twice.~~
-* ~~Show user summary/score when kana list is exhausted. ~~
+* ~~Show user summary/score when kana list is exhausted.~~
 * ~~Show summary/score on ^C.~~
 * Maybe split kana into subgroups and let the user train in the kana subgroup of his or her choosing.
 * Add comments.
