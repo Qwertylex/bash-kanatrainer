@@ -1,9 +1,5 @@
 # Alex's Bash Kanatrainer
-## Intro
 It shows you a random kana and asks you what its romaji counterpart is.
-
-Its a bit hackish but it works.
-I plan to clean it up a bit then make it 1.0 once I think its "clean".
 
 ## Todo
 * ~~Not showing the same kana twice.~~
